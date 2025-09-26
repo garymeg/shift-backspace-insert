@@ -1,6 +1,10 @@
 {
   "name": "shift-backspace-insert",
   "displayName": "shift-backspace-insert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garymeg/shift-backspace-insert"
+  },
   "description": "use shift-backspace to insert a character without having to switch to insert mode when in overtype mode",
   "version": "0.0.1",
   "engines": {
