@@ -1,6 +1,7 @@
 {
   "name": "shift-backspace-insert",
   "displayName": "shift-backspace-insert",
+  "publisher": "garymeg",
   "repository": {
     "type": "git",
     "url": "https://github.com/garymeg/shift-backspace-insert"
