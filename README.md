@@ -51,7 +51,7 @@ This extension does not contribute any VS Code settings. It works out of the box
 
 ## Known Issues
 
-None currently known. If you encounter any issues, please report them on the [GitHub repository](https://github.com/your-username/shift-backspace-insert/issues).
+None currently known. If you encounter any issues, please report them on the garymeg/shift-backspace-insert/issues.
 
 ## Contributing
 
