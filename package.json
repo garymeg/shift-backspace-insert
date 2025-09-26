@@ -1,0 +1,49 @@
+{
+  "name": "shift-backspace-insert",
+  "displayName": "shift-backspace-insert",
+  "description": "use shift-backspace to insert a character without having to switch to insert mode when in overtype mode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+  "commands": [
+    {
+      "command": "extension.shiftBackspaceInsert",
+      "title": "Shift+Backspace Insert Space"
+    }
+  ],
+  "keybindings": [
+    {
+      "key": "shift+backspace",
+      "command": "extension.shiftBackspaceInsert",
+      "when": "editorTextFocus"
+    }
+  ]
+},
+
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.104.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "eslint": "^9.34.0",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
